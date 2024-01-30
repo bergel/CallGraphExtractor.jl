@@ -1,9 +1,8 @@
 module CallGraphExtractor
 
-# Write your package code here.
+using Match
+
 include("functions.jl")
 
-export greet_your_package_name
-export visit
-export extract_function_def_names
+export extract_dep, extract_function_name
 end
